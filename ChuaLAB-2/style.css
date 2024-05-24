@@ -1,0 +1,140 @@
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+.header .img,
+.header .text,
+.header .icon {
+    float: left;
+}
+.img{
+    margin-right: 100px;
+}
+.text{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-right: 130px;
+}
+.icon{
+    margin-top: 48px;
+}
+.icon>img{
+    width: 40%;
+}
+.menu{
+    float: left;
+    width: 100%;
+}
+.menu>ul>li{
+    display: inline-block;
+}
+.menu>ul>li>a
+{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu>ul>li{
+    position: relative;
+}
+.menu>ul>li>ul{
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+.menu>ul>li>ul>li>a{
+    display: block;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu>ul>li>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid;
+}
+.menu ul ul a{
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu ul li ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.content{
+    background-color: burlywood;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid;
+    float: left;
+}
+.prod{
+    width: 300px;
+    height: 300px;
+    float: left;
+    position: relative;
+    margin:20px;
+}
+.icon-heart{
+    position: absolute;
+    right: 6px;
+    bottom: 15px;
+}
+.money{
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+}
+.picture img {
+    width: 100%; 
+}
+.icon-heart img {
+    width: 45px; 
+}
+.footer{
+    background-color: orangered;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+    border-radius: 3px;
+}
+.footer .info{
+    float: left;
+    margin-right: 50px;
+    font-size: 24px;
+    margin-left: 20px;
+    width: 50%;
+}
+.footer .copyright{
+    float: left;
+    font-size: 24px;
+    margin-top: 50px;
+}
