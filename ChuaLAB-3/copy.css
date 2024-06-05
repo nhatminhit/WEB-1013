@@ -1,0 +1,170 @@
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+.header .img,
+.header .text,
+.header .icon {
+    float: left;
+}
+.img{
+    margin-right: 100px;
+}
+.text{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-right: 130px;
+}
+.icon{
+    margin-top: 48px;
+}
+.icon>img{
+    width: 40%;
+}
+.menu{
+    float: left;
+    width: 100%;
+}
+.menu>ul>li{
+    display: inline-block;
+}
+.menu>ul>li>a
+{
+    display: block;
+}
+.menu>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+.menu>ul>li{
+    position: relative;
+}
+.menu>ul>li>ul{
+    position: absolute;
+    display: none;
+    z-index: 1;
+}
+.menu>ul>li>ul>li>a{
+    display: block;
+}
+.menu>ul>li:hover>ul{
+    display: block;
+}
+.menu>ul>li>ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 300px;
+    background-color: white;
+    border: 1px solid;
+}
+.menu ul ul a{
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10px;
+}
+.menu ul li ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.content{
+    background-color: burlywood;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid;
+    float: left;
+    border-radius: 5px;
+}
+.footer{
+    background-color: orangered;
+    color: white;
+    width: 100%;
+    margin-top: 10px;
+    float: left;
+    border-radius: 3px;
+}
+.footer .copyright{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+.formDangKy{
+    float: left;
+    margin: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.tBangDiem{
+    margin: 40px;
+}
+table {
+    border-collapse : collapse;
+    width: 370px;
+}
+
+th {
+    background-color: bisque;
+}
+td{
+    text-align: center;
+}
+
+tr {
+    background-color: aqua;
+}
+
+tr:nth-child(2n+1) {
+    background-color: aqua;
+}
+
+tr:nth-child(2n) {
+    background-color: greenyellow;
+}
+
+tr:first-child {
+    background-color: rgb(244, 34, 93);
+}
+
+tr:last-child {
+    background-color: rgb(93, 93, 93);
+}
+.focusx:focus{
+    background-color: red;
+}
+.form-group{
+    margin: 10px 20px;
+}
+.form-control{
+    margin: 3px 0px;
+    padding: 5px;
+    border: none;
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 3px blue;
+    color: orangered;
+    display: block;
+    outline: none;
+}
+.form-control:focus{
+    box-shadow: 0 0 3px orangered;
+}
